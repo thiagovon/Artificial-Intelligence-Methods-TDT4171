@@ -45,7 +45,7 @@ def simulateFullCollection():
     return groupSize
 
 print("\nRunning simulation for Part 2 (this may take a moment)...")
-nSimsPart2 = 1000  # Running 1000 simulations for speed
+nSimsPart2 = 1000 
 collectionSizes = [simulateFullCollection() for _ in range(nSimsPart2)]
 expectedGroupSize = np.mean(collectionSizes)
 
