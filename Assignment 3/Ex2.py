@@ -42,7 +42,6 @@ if __name__ == "__main__":
     print(f"\nExpected P(Rain|e1:2) aprox 0.883.")
     print(f"Calculated P(Rain|e1:2) = {final_verify[0]:.4f}")
     
-    # --- Tarefa 2: Sequência Completa ---
-    print("\n=== Final Task (Dias 1-5) ===")
+    print("\n=== Final Task (Days 1-5) ===")
     evidence_task = [True, True, False, True, True]
     forward_filtering(evidence_task)
